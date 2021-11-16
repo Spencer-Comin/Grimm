@@ -1,0 +1,137 @@
+{
+  "stories": [
+    {
+      "name": "The Frog King or Iron Henry",
+      "number": 1,
+      "segments":5
+    },
+    {
+      "name": "Cat and Mouse in Partnership",
+      "number": 2,
+      "segments": 7
+    },
+    {
+      "name": "Our Lady's Child",
+      "number": 3,
+      "segments": 8
+    },
+    {
+      "name": "Rapunzel",
+      "number": 4,
+      "segments": 5
+    }
+  ],
+
+  "start locations": [
+    "house"
+  ],
+
+  "map": {
+    "house": {
+      "church": [
+        "2.1",
+        "2.3",
+        "2.5",
+        "2.7"
+      ],
+      "garden": [
+        "4.1"
+      ]
+    },
+
+    "church": {
+      "house": [
+        "2.2",
+        "2.4",
+        "2.6"
+      ]
+    },
+
+    "forest": {
+      "castle": [
+        "3.6"
+      ],
+      "wilderness": [
+        "4.4"
+      ],
+      "heaven": [
+        "3.1"
+      ]
+    },
+
+    "castle": {
+      "well": [
+        "1.1"
+      ],
+      "heaven": [
+        "3.7"
+      ],
+      "court": [
+        "1.3"
+      ]
+    },
+
+    "well": {
+      "castle": [
+        "1.2"
+      ]
+    },
+
+    "heaven": {
+      "castle": [
+        "3.8"
+      ],
+      "wilderness": [
+        "3.4"
+      ],
+      "thirteenth door": [
+        "3.2"
+      ]
+    },
+
+    "thirteenth door": {
+      "heaven": [
+        "3.3"
+      ]
+    },
+
+    "wilderness": {
+      "forest": [
+        "3.5"
+      ],
+      "kingdom": [
+        "4.5"
+      ]
+    },
+
+    "kingdom": {
+      "start": [
+        "0.0"
+      ]
+    },
+
+    "bedroom": {
+      "kingdom": [
+        "1.5"
+      ]
+    },
+
+    "court": {
+      "bedroom": [
+        "1.5"
+      ]
+    },
+
+    "garden": {
+      "tower": [
+        "4.2"
+      ]
+    },
+
+    "tower": {
+      "forest": [
+        "4.3"
+      ]
+    }
+  }
+}
